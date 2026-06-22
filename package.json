@@ -1,0 +1,15 @@
+{
+  "name": "somssi-mvp",
+  "version": "0.1.0",
+  "description": "솜씨 MVP — AI가 아이디어를 보고 필요한 역할을 짚고, 실력 신호로 사람을 추천한다.",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.69.0",
+    "dotenv": "^17.0.0",
+    "express": "^5.1.0"
+  }
+}

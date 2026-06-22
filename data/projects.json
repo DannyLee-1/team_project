@@ -1,0 +1,58 @@
+[
+  {
+    "id": "p1001",
+    "idea": "독거 어르신 자동 안부 확인 서비스",
+    "createdAt": "2026-06-10T09:00:00.000Z",
+    "roleCount": 3,
+    "teamFormed": true
+  },
+  {
+    "id": "p1002",
+    "idea": "지역 청년 주거 정보 한곳에 모으기",
+    "createdAt": "2026-06-11T11:20:00.000Z",
+    "roleCount": 2,
+    "teamFormed": true
+  },
+  {
+    "id": "p1003",
+    "idea": "장애인 이동지원 콜택시 배차 돕기",
+    "createdAt": "2026-06-12T14:05:00.000Z",
+    "roleCount": 3,
+    "teamFormed": false
+  },
+  {
+    "id": "p1004",
+    "idea": "소상공인 지원사업 신청 간소화",
+    "createdAt": "2026-06-13T10:40:00.000Z",
+    "roleCount": 2,
+    "teamFormed": true
+  },
+  {
+    "id": "p1005",
+    "idea": "자원봉사자-수요처 매칭 앱",
+    "createdAt": "2026-06-14T16:30:00.000Z",
+    "roleCount": 3,
+    "teamFormed": false
+  },
+  {
+    "id": "p1006",
+    "idea": "방문요양 일지 디지털화",
+    "createdAt": "2026-06-15T08:15:00.000Z",
+    "roleCount": 2,
+    "teamFormed": true
+  },
+  {
+    "id": "p1007",
+    "idea": "복지 제도 안내 챗봇",
+    "createdAt": "2026-06-16T13:50:00.000Z",
+    "roleCount": 2,
+    "teamFormed": false
+  },
+  {
+    "id": "p1008",
+    "idea": "다문화가정 통번역 자원 연결",
+    "createdAt": "2026-06-17T09:25:00.000Z",
+    "roleCount": 3,
+    "teamFormed": false
+  }
+]

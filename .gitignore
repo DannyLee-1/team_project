@@ -1,0 +1,16 @@
+# Environment variables (절대 커밋 금지)
+.env
+.env.*
+!.env.example
+
+# Dependencies
+node_modules/
+
+# Vercel
+.vercel
+
+# Logs / OS / Editor
+npm-debug.log*
+*.log
+.DS_Store
+Thumbs.db
