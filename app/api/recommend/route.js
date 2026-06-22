@@ -55,7 +55,7 @@ ${JSON.stringify(makers, null, 2)}
 
   try {
     const response = await client().messages.create({
-      model: "claude-opus-4-8",
+      model: "claude-haiku-4-5",
       max_tokens: 4000,
       system: SYSTEM_PROMPT,
       output_config: { format: { type: "json_schema", schema: OUTPUT_SCHEMA } },

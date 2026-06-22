@@ -82,7 +82,7 @@ npm start          # 서버 실행
 ## 기술
 
 - 백엔드: Node.js + Express, 파일 기반 DB(`data/*.json`)
-- AI: Claude API (`claude-opus-4-8`), 구조화 출력(`output_config.format`)
+- AI: Claude API (`claude-haiku-4-5`), 구조화 출력(`output_config.format`)
 - 프론트: 바닐라 HTML/CSS/JS, 토스 스타일 단계 플로우
 - 키: `.env` 의 `ANTHROPIC_API_KEY`
 
