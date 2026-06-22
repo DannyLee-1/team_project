@@ -34,15 +34,7 @@ export default function Page() {
   return (
     <>
       <div aria-hidden dangerouslySetInnerHTML={{ __html: SPRITE }} />
-      <div className="phone">
-        <div className="sbar">
-          9:41
-          <span className="rr">
-            <i></i>
-          </span>
-        </div>
-        <div id="app"></div>
-      </div>
+      <div id="app"></div>
     </>
   );
 }
