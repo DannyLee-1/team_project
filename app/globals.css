@@ -1045,15 +1045,17 @@ body {
   background: var(--canvas);
 }
 
-/* 폰 프레임 해제 → 전체 폭 앱 */
+/* 폰 프레임 해제 → 데스크톱 중앙 와이드 셸 (1920×1080 기준) */
 .phone {
-  max-width: none;
+  max-width: 1120px;
   width: 100%;
   min-height: 100vh;
   max-height: none;
-  margin: 0;
+  margin: 0 auto;
   border-radius: 0;
-  box-shadow: none;
+  border-left: 1px solid var(--line);
+  border-right: 1px solid var(--line);
+  box-shadow: 0 0 90px rgba(40, 38, 34, 0.1);
   background: var(--ivory);
   overflow: visible;
 }
@@ -1117,20 +1119,20 @@ body {
 .scr {
   order: 2;
   width: 100%;
-  max-width: 860px;
+  max-width: 960px;
   margin: 0 auto;
-  padding: 40px clamp(20px, 5vw, 40px) 64px;
+  padding: 48px clamp(24px, 4vw, 56px) 72px;
   overflow: visible;
   flex: 1 0 auto;
 }
 .h {
-  font-size: 30px;
+  font-size: 32px;
 }
 .h.sm {
-  font-size: 23px;
+  font-size: 24px;
 }
 
-/* 분기/대시보드 등은 2열로 넓게 */
+/* 데스크톱: 분기·대시보드 가로 배치, 매칭/목록 2열 */
 @media (min-width: 720px) {
   .pick {
     flex-direction: row;
@@ -1140,6 +1142,16 @@ body {
   }
   .dash-grid {
     grid-template-columns: repeat(4, 1fr);
+  }
+  /* 매칭 후보 그룹을 2열 그리드로 */
+  .grp {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0 16px;
+    align-items: start;
+  }
+  .grp .glab {
+    grid-column: 1 / -1;
   }
 }
 
