@@ -1,18 +1,19 @@
 {
-  "name": "somssi-mvp",
-  "version": "0.1.0",
-  "description": "솜씨 MVP — AI가 아이디어를 보고 필요한 역할을 짚고, 실력 신호로 사람을 추천한다.",
-  "type": "module",
+  "name": "somssi",
+  "version": "0.2.0",
+  "private": true,
   "scripts": {
-    "start": "node server.js",
-    "dev": "node --watch server.js"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
   },
   "engines": {
     "node": "22.x"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.69.0",
-    "dotenv": "^17.0.0",
-    "express": "^5.1.0"
+    "next": "^15.5.4",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
   }
 }
